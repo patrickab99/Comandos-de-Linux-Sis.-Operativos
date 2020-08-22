@@ -1,0 +1,36 @@
+*************Comandos básicos vistos entre semana 1 y 4:***********************
+sudo= Da permisos administrativos para tareas
+cd= Para navegar por los archivos y directorios de Linux
+cat= Para listar el contenido de un archivo. 
+cat > nombredearchivo = para crear un archivo nuevo
+ls= Se usa para ver el contenido de un directorio.
+mkdir= Para crear un nuevo directorio.
+mv= Sus denotan la palabra "move" se usa para mover archivos y en algunas ocasiones cambiar nombres.
+grep = Para buscar dentro de un archivo.
+ping= Verifica si esta transmitiendo o teniendo conexió a un servidor o navegador.
+useradd= Para crear un nuevo usuario 
+pwd= Para mostrar el directorio que esta en uso.
+rename= Permite cambiar nombre de carpetas o archivos.
+rm=  Borra archivos y directorios de forma permanente.
+
+*************Comandos básicos vistos entre semana 5 y 8:*******************
+sudo apt upgrade=
+sudo apt update= actualiza paquetes existentes
+Sudo userpad user1 -p 12345= crea usuario 
+Sudo passwd user1= Actualiza el password 
+History= Todos los comandos
+History| grep user= Para buscar comandos que lleven determinada palabra
+Telnet towel.blinkenlights.nl/ Easter egg
+Sudo apt purge= Eliminar paquetes
+Sudo !! = Corre comando anterior con permisos de administrador 
+Sudo add-apt repository=para agregar repositorios
+Sudo rn-rf = borrar todos los archivos y ejecutables
+Map = para ver los puertos que se tiene habilitados en servidores por
+Medio = del url 
+Free -h= ver rendimiento de memoria
+Sudo passwd root
+Etc/shadow = almacena información de contraseña del usuario//contiene una contraseña encriptada, así como otra información
+
+*************Comandos básicos vistos entre semana 9 y 12:*******************
+sudo apt install docker.io =Se instala docker.io
+Sudo systemctl start docker
