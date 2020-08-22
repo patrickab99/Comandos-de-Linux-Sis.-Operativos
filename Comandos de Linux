@@ -1,5 +1,6 @@
 *************Comandos básicos vistos entre semana 1 y 4:***********************
 sudo= Da permisos administrativos para tareas
+ps -aux= forma de ver procesos y estados 
 cd= Para navegar por los archivos y directorios de Linux
 cat= Para listar el contenido de un archivo. 
 cat > nombredearchivo = para crear un archivo nuevo
@@ -12,9 +13,11 @@ useradd= Para crear un nuevo usuario
 pwd= Para mostrar el directorio que esta en uso.
 rename= Permite cambiar nombre de carpetas o archivos.
 rm=  Borra archivos y directorios de forma permanente.
+sudo apt install openssh-server = Para trsnferir archivos entre host y virtual.
+ip addr= Para verificar la ip asiganda a la maquina.
 
 *************Comandos básicos vistos entre semana 5 y 8:*******************
-sudo apt upgrade=
+sudo apt upgrade= actaulizacion del sistema completo
 sudo apt update= actualiza paquetes existentes
 Sudo userpad user1 -p 12345= crea usuario 
 Sudo passwd user1= Actualiza el password 
@@ -30,7 +33,25 @@ Medio = del url
 Free -h= ver rendimiento de memoria
 Sudo passwd root
 Etc/shadow = almacena información de contraseña del usuario//contiene una contraseña encriptada, así como otra información
-
+tar -xzvf archive.tar.gz = comprimir archivos a tipo .tar
+du -h= Tamañño del archivo
+stat = Creacion y ultimo acceso al archivo
+chmod= para cambiar los permisos de archivos o directorios
+df-h= espacio de disco usado 
+sudo apt install gparted = Para adminitrar particiones de disco
+gnome-disk-utility= Informacion sobre el disco
+cat /etc/shells = encoentrar ficheros en el directorio especificos
 *************Comandos básicos vistos entre semana 9 y 12:*******************
 sudo apt install docker.io =Se instala docker.io
-Sudo systemctl start docker
+Sudo systemctl start docker = Inicia docker
+Sudo systemctl enable docker= Inicia con la maquina encendida
+Sudo docker search /OS = Imagenes en el sistema
+sudo docker container rm = Borrar contenedores
+Sudo docker images = Ver que imagenes existen docker
+Sudo docker pull = Instala contenedor
+Sudo run -it  = Correr un contenedor creado en especfico
+sudo docker ps -a = Ver informacion de los contenedores en el sistema
+sudo docker push = Para subir el contenedor creado a la pagina
+
+
+
